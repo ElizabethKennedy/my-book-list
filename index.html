@@ -22,9 +22,22 @@
       <template class="book">
         <p>Book Title</p>
         <p>Book Author</p>
+
+
+        <input id="yes" type="checkbox" name="read" value="yes"
+        checked="checked">
+        <label for="yes">Yes</label>
+        <input id="no" type="checkbox" name="read" value="no">
+        <label for="no">No</label>
+        <input type="checkbox" name="read" value="favorite">
+        <label for="favorite">Favorite</label>
+        <br>
+
+
+
         <button class="btn btn-primary">Remove</button>
         <hr>
-        
+
 
       </template>
     </div>
@@ -42,6 +55,18 @@
     <input class="form-control" type="text" name="author"
     placeholder="Author of the book..." required>
     <br>
+
+    <input id="yes" type="checkbox" name="read" value="yes"
+    checked="checked">
+    <label for="yes">Yes</label>
+    <input id="no" type="checkbox" name="read" value="no">
+    <label for="no">No</label>
+    <input type="checkbox" name="read" value="favorite">
+    <label for="favorite">Favorite</label>
+    <br>
+
+
+
     <button class="btn btn-danger" type="submit">Add book</button>
   </form>
 </div>
